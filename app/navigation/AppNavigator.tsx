@@ -10,7 +10,7 @@ import { RootStackParamList } from "../types";
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const AppNavigator = () => {
-  const { theme, colors } = useTheme();
+  const { colors } = useTheme();
 
   return (
     <NavigationContainer>

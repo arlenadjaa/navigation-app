@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface Product {
   id: string;
   name: string;
@@ -25,3 +27,7 @@ export interface ThemeColors {
   primary: string;
   border: string;
 }
+
+// Default export for router compatibility (no-op component)
+const _TypesRoute: React.FC = () => null;
+export default _TypesRoute;

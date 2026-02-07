@@ -1,5 +1,8 @@
 import { Product } from "../types";
 
+// Default export for frameworks that treat files under /app as routes.
+import React from "react";
+
 export const PRODUCTS: Product[] = [
   {
     id: "1",
@@ -42,3 +45,5 @@ export const PRODUCTS: Product[] = [
       "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80",
   },
 ];
+const _ProductsRoute: React.FC = () => null;
+export default _ProductsRoute;
